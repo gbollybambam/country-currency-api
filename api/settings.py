@@ -28,8 +28,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-allowed_hosts_str = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost')
-ALLOWED_HOSTS = allowed_hosts_str.split(',')
+ALLOWED_HOSTS = ['gbollybam.pythonanywhere.com']
 
 # Application definition
 
